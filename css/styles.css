@@ -193,6 +193,16 @@ letter-spacing: 0.02em;
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
+    height: 603px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people\ .jpg);
 }
 /* paragraf */
 .effects{
@@ -299,6 +309,16 @@ letter-spacing: 0.02em;
 .item p {
     margin-bottom: 0;
     margin-top: 0;
+}
+.features-div {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 /* Strategy */
@@ -425,6 +445,19 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     color:var(--contactcolor);
 
+}
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+.social-list {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
