@@ -398,8 +398,7 @@ letter-spacing: 0.02em;
 .cot li {
     text-align: center;
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+
 }
 
 .cot li + li {
@@ -491,13 +490,23 @@ letter-spacing: 0.02em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover{
-    fill: var(--butcolor);
-    
+    color: var(--butcolor);
+    fill:var(--butcolor);
 }
 .customers-link:focus {
-    fill: var(--butcolor);
-    c
+    fil: var(--butcolor);
+
+    
 }
+.ser:hover{
+    color: var(--butcolor);
+    fill:var(--butcolor);
+}
+.ser:focus{
+    color: var(--butcolor);
+    fill:var(--butcolor);
+}
+
 
 .customers li+li {
     margin-left: 24px;
@@ -648,6 +657,13 @@ color: var(--serrcolor);
 
 .flower{
     text-decoration: none
+    
+}
+.flower :hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.flower :focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .flowerone{
     
@@ -700,4 +716,13 @@ color: var(--serrcolor);
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border: 0.5px solid #F4F4FD;
+
 }
+.port-card :hover{
+   
+}
+.port-card :focus{
+
+}
+    
