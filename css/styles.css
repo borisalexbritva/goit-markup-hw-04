@@ -475,9 +475,11 @@ letter-spacing: 0.02em;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .customers ul {
     display: flex;
 }
+
 .icon {
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -486,10 +488,11 @@ letter-spacing: 0.02em;
 
 .icon:hover,
 .icon:focus {
-    border: 1px solid var(--butcolor);
+    border: 1px solid #4D5AE5;
     border-radius: 4px;
 }
-.customers-link{
+
+.customers-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,33 +501,15 @@ letter-spacing: 0.02em;
     fill: #8e8f99;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-link:hover{
-    color: var(--butcolor);
-    fill:var(--butcolor);
-}
+
+.customers-link:hover,
 .customers-link:focus {
     fill: var(--butcolor);
-color: var(--butcolor);
-    
-}
-.customers-links:hover{
-    color: var(--butcolor);
-    fill:var(--butcolor);
-}
-.customers-links:focus {
-    fill: var(--butcolor);
-color: var(--butcolor);
-    
-}
-.ser:hover{
-    color: var(--butcolor);
-    fill:var(--butcolor);
-}
-.ser:focus{
-    color: var(--butcolor);
-    fill:var(--butcolor);
 }
 
+.customers li+li {
+    margin-left: 24px;
+}
 
 .customers li+li {
     margin-left: 24px;
@@ -581,8 +566,37 @@ color: var(--serrcolor);
     margin-bottom: 16px;
     font-weight: 600;
 }
+.footer {
+    color: var(--whitecolor);
+    background-color:var(--navcolor);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer div {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+}
 
-.foot-logo {
+.footer .logo {
+    margin-bottom: 16px;
+}
+
+.footer-div {
+    flex-direction: column;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.smp {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footer-logo {
     margin-right: 120px;
 }
 
@@ -605,7 +619,6 @@ color: var(--serrcolor);
 .footer-list li + li {
     margin-left: 16px;
 }
-
 
 /* pppppppppppppppooooooooooooooorrrrrrrrrrrrrttttttttttfffffffffoooooooooolllllliiiiiiiooooooo */
 .functional{
@@ -743,4 +756,8 @@ color: var(--serrcolor);
 .port-card :focus{
 
 }
-    
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
