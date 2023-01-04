@@ -462,6 +462,15 @@ letter-spacing: 0.02em;
     padding-left: 16px;
     padding-right: 16px;
 }
+.socialf{
+
+}
+.socialf:hover{
+
+}
+.socialf:focus{
+
+}
 .customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -494,8 +503,17 @@ letter-spacing: 0.02em;
     fill:var(--butcolor);
 }
 .customers-link:focus {
-    fil: var(--butcolor);
-
+    fill: var(--butcolor);
+color: var(--butcolor);
+    
+}
+.customers-links:hover{
+    color: var(--butcolor);
+    fill:var(--butcolor);
+}
+.customers-links:focus {
+    fill: var(--butcolor);
+color: var(--butcolor);
     
 }
 .ser:hover{
