@@ -551,7 +551,7 @@ letter-spacing: 0.02em;
     font-size: 18px;
     line-height: 1.16;
     color:  var(--sercolor);
-    text-decoration: none;
+    
     text-transform:uppercase;
 }
 
@@ -621,6 +621,7 @@ color: var(--serrcolor);
 }
 
 /* pppppppppppppppooooooooooooooorrrrrrrrrrrrrttttttttttfffffffffoooooooooolllllliiiiiiiooooooo */
+
 .functional{
     padding-top: 96px;
     padding-bottom: 120px;
@@ -687,8 +688,8 @@ color: var(--serrcolor);
 
 
 .flower{
-    text-decoration: none
-    
+    transform: translateY(-100%); 
+    text-decoration: none;    
 }
 .flower :hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -705,12 +706,17 @@ color: var(--serrcolor);
     font-size: 20px;
     line-height: 1.2;
     color: var(--navcolor);
+    outline: 0;
+    outline-offset: 0;
+   
 }
 .flowersri{
     font-size: 16px;
     line-height: 1.5;
     color: var(--contactcolor);
-    
+    text-decoration: none; 
+    outline: 0;
+    outline-offset: 0;
 }
 .buttrons{
     margin-top: 72px;
