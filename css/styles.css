@@ -718,14 +718,16 @@ padding-top: 16px;
 
 
 .flower{
-    transform: translateY(-100%); 
+   
     text-decoration: none;    
 }
-.flower :hover{
+.flower:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
-.flower :focus{
+.flower:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
 }
 .flowerone{
     
@@ -788,11 +790,11 @@ padding-top: 16px;
     border: 0.5px solid #F4F4FD;
 
 }
-.port-card :hover{
-   
+.port-card:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.port-card :focus{
-
+.port-card:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .text {
     line-height: 1.5;
