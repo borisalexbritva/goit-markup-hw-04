@@ -448,6 +448,23 @@ letter-spacing: 0.02em;
 .social-list-item{
 
 }
+.social-list-item:hover{
+   
+}
+.social-list-item:focus{
+
+}
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
 .social-list-link {
     display: flex;
     justify-content: center;
@@ -457,20 +474,30 @@ letter-spacing: 0.02em;
     border-radius: 50%;
     border: none;
     background-color: var(--butcolor);
+    
 }
+.social-list-link :hover{
+    background-color: #404BBF;
+}
+.social-list-link:focus{
+    background-color: #404BBF;
+}
+
 .social-list {
     padding-left: 16px;
     padding-right: 16px;
 }
-.socialf{
 
+.socialf{
+    margin-top: 8px;
 }
 .socialf:hover{
-
+    background-color: #404BBF;
 }
 .socialf:focus{
-
+    background-color: #404BBF;
 }
+   
 .customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -553,6 +580,7 @@ letter-spacing: 0.02em;
     color:  var(--sercolor);
     
     text-transform:uppercase;
+   
 }
 
 .increase{
@@ -560,6 +588,7 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 color: var(--serrcolor);
+padding-top: 16px;
 }
 .sm {
     margin-top: 0;
@@ -609,6 +638,7 @@ color: var(--serrcolor);
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.1);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .footer-link:hover,
@@ -708,6 +738,7 @@ color: var(--serrcolor);
     color: var(--navcolor);
     outline: 0;
     outline-offset: 0;
+    
    
 }
 .flowersri{
@@ -717,6 +748,7 @@ color: var(--serrcolor);
     text-decoration: none; 
     outline: 0;
     outline-offset: 0;
+      
 }
 .buttrons{
     margin-top: 72px;
